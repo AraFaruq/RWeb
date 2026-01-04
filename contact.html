@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HomeCraft — Contact Us</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        <span class="brand-name" data-i18n="brand">HomeCraft</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" data-nav>
+        <a class="nav-link" href="index.html" data-i18n="nav_home">Home</a>
+        <a class="nav-link" href="products.html" data-i18n="nav_products">Our Products</a>
+        <a class="nav-link active" href="contact.html" data-i18n="nav_contact">Contact Us</a>
+
+        <button class="btn" id="langBtn" type="button" style="padding:10px 14px;">
+          ENG / KURD
+        </button>
+
+        <a class="nav-cta" href="products.html" data-i18n="nav_cta">Shop Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 data-i18n="contact_title">Contact Us</h1>
+        <p class="muted" data-i18n="contact_sub">The fastest way to order is via Facebook message.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <h2 data-i18n="contact_fast">Message us on Facebook</h2>
+          <p class="muted" data-i18n="contact_hint">
+            Click the button below — send your door size + location, and we will reply with price and installation time.
+          </p>
+
+          <a class="btn primary" href="https://www.facebook.com/kargaynawshaxan?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" rel="noopener" style="margin-top:12px;">
+            <span data-i18n="contact_btn">Open Facebook Page</span>
+          </a>
+
+          <p class="muted tiny" style="margin-top:12px;" data-i18n="contact_note">
+            Tip: include width/height + door type (roll-up / sectional / motor).
+          </p>
+        </div>
+
+        <div class="contact-side">
+          <div class="card">
+            <h3 data-i18n="our_info">Our Info</h3>
+            <p class="muted" data-i18n="footer_email">Facebook: Message us</p>
+            <p class="muted" data-i18n="footer_phone">Phone: 07701465720</p>
+            <p class="muted" data-i18n="hours">Hours: Sat–Thu, 10:00–18:00</p>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="quick_tip">Quick Tip</h3>
+            <p class="muted" data-i18n="quick_tip_text">
+              If you want a motorized door, tell us if you have electricity near the garage.
+            </p>
+            <a class="btn ghost" href="products.html" data-i18n="browse_products">Browse Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark small"></span>
+          <span class="brand-name" data-i18n="brand">HomeCraft</span>
+        </div>
+        <p class="muted" data-i18n="footer_desc">Garage doors with modern look and reliable performance.</p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_pages">Pages</h4>
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="products.html" data-i18n="nav_products">Our Products</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact Us</a>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_contact">Contact</h4>
+        <p class="muted" data-i18n="footer_email">Facebook: Message us</p>
+        <p class="muted" data-i18n="footer_phone">Phone: +964 000 000 0000</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted">© <span id="year"></span> <span data-i18n="brand">HomeCraft</span>. <span data-i18n="footer_rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
