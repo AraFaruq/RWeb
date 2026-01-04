@@ -128,7 +128,7 @@ const i18n = {
     footer_rights: "وەکیلی سەرەکی ئێرالێکس - کارگەی ناوشاخان.",
 
     our_info: "زانیاری",
-    hours: "shakawanmuhammed552@gmailcom",
+    place: "shakawanmuhammed552@gmailcom",
     quick_tip: "تێبینی خێرا",
     quick_tip_text: ".",
     browse_products: "بینینی بەرهەمەکان"
