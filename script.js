@@ -213,6 +213,8 @@ function initProductsPage(force = false) {
 
 
 
+
+
   const searchInput = $("#searchInput");
 
 function render(list) {
