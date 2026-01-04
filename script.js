@@ -195,19 +195,20 @@ function initProductsPage(force = false) {
   if (!grid) return;
 
   const products = [
-  { id: 1, title: "Roll-Up Garage Door", price:"contact us", desc: "Strong steel roll-up door with smooth movement.", img: "img/12.jpg" },
-  { id: 2, title: "Sectional Garage Door", price:"contact us", desc: "Modern sectional panels with clean finishing.", img: "img/7.jpg" },
-  { id: 3, title: "Motorized System Option", price:"contact us", desc: "Remote control motor option for easy opening.", img: "img/2.jpg" },
-  { id: 4, title: "Insulated Garage Door", price:"contact us", desc: "Reduces noise and helps temperature stability.", img: "img/3.jpg" },
-  { id: 5, title: "Heavy-Duty Roll-Up", price:"contact us", desc: "Extra thick build for warehouses and shops.", img: "img/4.jpg" },
-  { id: 6, title: "Anti-Rust Coating Upgrade", price:"contact us", desc: "Protective coating for longer life and better look.", img: "img/5.jpg" },
-  { id: 7, title: "Roll-Up Garage Door", price:"contact us", desc: "Strong steel roll-up door with smooth movement.", img: "img/6.jpg" },
-  { id: 8, title: "Sectional Garage Door", price:"contact us", desc: "Modern sectional panels with clean finishing.", img: "img/1.jpg" },
-  { id: 9, title: "Motorized System Option", price:"contact us", desc: "Remote control motor option for easy opening.", img: "img/8.jpg" },
-  { id: 10, title: "Insulated Garage Door", price:"contact us", desc: "Reduces noise and helps temperature stability.", img: "img/9.jpg" },
-  { id: 11, title: "Heavy-Duty Roll-Up", price:"contact us", desc: "Extra thick build for warehouses and shops.", img: "img/10.jpg" },
-  { id: 12, title: "Anti-Rust Coating Upgrade", price:"contact us", desc: "Protective coating for longer life and better look.", img: "img/11.jpg" }
+  { id: 1, title: "Roll-Up Garage Door", price: "Contact us", desc: "Strong steel roll-up door with smooth movement.", img: "IMG/12.jpg" },
+  { id: 2, title: "Sectional Garage Door", price: "Contact us", desc: "Modern sectional panels with clean finishing.", img: "IMG/7.jpg" },
+  { id: 3, title: "Motorized System Option", price: "Contact us", desc: "Remote control motor option for easy opening.", img: "IMG/2.jpg" },
+  { id: 4, title: "Insulated Garage Door", price: "Contact us", desc: "Reduces noise and helps temperature stability.", img: "IMG/3.jpg" },
+  { id: 5, title: "Heavy-Duty Roll-Up", price: "Contact us", desc: "Extra thick build for warehouses and shops.", img: "IMG/4.jpg" },
+  { id: 6, title: "Anti-Rust Coating Upgrade", price: "Contact us", desc: "Protective coating for longer life and better look.", img: "IMG/5.jpg" },
+  { id: 7, title: "Roll-Up Garage Door", price: "Contact us", desc: "Strong steel roll-up door with smooth movement.", img: "IMG/6.jpg" },
+  { id: 8, title: "Sectional Garage Door", price: "Contact us", desc: "Modern sectional panels with clean finishing.", img: "IMG/1.jpg" },
+  { id: 9, title: "Motorized System Option", price: "Contact us", desc: "Remote control motor option for easy opening.", img: "IMG/8.jpg" },
+  { id: 10, title: "Insulated Garage Door", price: "Contact us", desc: "Reduces noise and helps temperature stability.", img: "IMG/9.jpg" },
+  { id: 11, title: "Heavy-Duty Roll-Up", price: "Contact us", desc: "Extra thick build for warehouses and shops.", img: "IMG/10.jpg" },
+  { id: 12, title: "Anti-Rust Coating Upgrade", price: "Contact us", desc: "Protective coating for longer life and better look.", img: "IMG/11.jpg" }
 ];
+
 
 
   const searchInput = $("#searchInput");
